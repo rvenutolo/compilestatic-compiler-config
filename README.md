@@ -54,4 +54,4 @@ Caused by: java.lang.NullPointerException
     * There are three class
       * [ConfigAddsCompileStatic](https://github.com/rvenutolo/compilestatic-compiler-config/blob/master/src/main/groovy/org/venutolo/compilestatic/ConfigAddsCompileStatic.groovy), which is not annotated with `CompileStatic`, and is the class I want to add `CompileStatic` to
       * [HasCompileStatic](https://github.com/rvenutolo/compilestatic-compiler-config/blob/master/src/main/groovy/org/venutolo/compilestatic/HasCompileStatic.groovy), which is a class already annotated with `CompileStatic`
-      * [NoCompileStatic](https://github.com/rvenutolo/compilestatic-compiler-config/blob/master/src/main/groovy/org/venutolo/compilestatic/NoCompileStatic.groovy), which is not anotated with `CompileStatic, nor do I want to add `CompileStatic` to it
+      * [NoCompileStatic](https://github.com/rvenutolo/compilestatic-compiler-config/blob/master/src/main/groovy/org/venutolo/compilestatic/NoCompileStatic.groovy), which is not anotated with `CompileStatic`, nor do I want to add `CompileStatic` to it
