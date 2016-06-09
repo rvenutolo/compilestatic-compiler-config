@@ -41,6 +41,7 @@ Caused by: java.lang.NullPointerException
 
 ### Notes
   * Groovy & JVM versions: `Groovy Version: 2.4.7 JVM: 1.8.0_92 Vendor: Oracle Corporation OS: Linux`
+    * Have tried Groovy versions going back to 2.4.3 and Oracle JVM 1.7.0_79
   * Changing any of the following will result in no compilation error:
     * Remove the `source` code around `ast`, leaving `ast(CompileStatic)`, in the compiler config script
     * Replace the `eachWithIndex` call in `Demo` with `each`
