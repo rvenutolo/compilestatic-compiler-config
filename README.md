@@ -1,3 +1,5 @@
+[GROOVY-7856](https://issues.apache.org/jira/browse/GROOVY-7856)
+
 I have run into an issue when adding the `CompileStatic` AST transformation to a class via the Groovy compiler `configscript` argument.
 
 ### `Demo.groovy`
