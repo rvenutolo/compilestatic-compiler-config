@@ -23,7 +23,7 @@ withConfig(configuration) {
 ```
 $ groovyc --configscript config.groovy Demo.groovy
 ```
-### Output
+### Output (abbreviated)
 ```
 >>> a serious error occurred: BUG! exception in phase 'instruction selection' in source unit 'Demo.groovy' unexpected NullpointerException
 >>> stacktrace:
